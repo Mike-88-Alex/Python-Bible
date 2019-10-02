@@ -14,8 +14,6 @@ students = {
 for gender, name, info in students.items():
     print ("\n")
     for key in info:
-    #for
-        #print (key+":",info[key])
         if key == "age":
             if info[key] > 18:
                 
