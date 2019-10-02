@@ -1,0 +1,21 @@
+students = {
+    "male": {
+        "Charlie":{"age": 26, "name": "Charlie"},
+        "Mike": {"age": 31, "name": "Mike"},
+        "John": {"age": 17, "name": "John"}
+        },
+    "female": {
+        "Samantha": {"age": 23, "name": "Samantha"},
+        "Sarah": {"age": 16, "name": "Sarah"},
+        "Susan": {"age": 18, "name": "Susan"}
+        }
+    }
+
+for gender, name, info in students.items():
+    print ("\n")
+    for key in info:
+    #for
+        #print (key+":",info[key])
+        if key == "age":
+            if info[key] > 18:
+                
